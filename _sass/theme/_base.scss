@@ -1,0 +1,67 @@
+/**
+ * Reset some basic elements
+ */
+html, body {
+    text-rendering: optimizeLegibility;
+    min-height: 100%;
+  margin: 0;                 
+  padding: 0;                
+}
+
+/**
+ * Basic styling
+ */
+body {
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  color: $text-color;
+  background-color: $background-color;
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-feature-settings: "kern" 1;
+     -moz-font-feature-settings: "kern" 1;
+       -o-font-feature-settings: "kern" 1;
+          font-feature-settings: "kern" 1;
+  font-kerning: normal;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.site-container, .row {
+    height: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.site-container, .column {
+    &:before, &:after {
+        content: "";
+        display: table;
+    }
+}
+
+.column {
+    &:after {
+        clear: both;
+    }
+    height: 100%;
+    overflow: auto;
+    .padding {
+        padding: 20px;
+    }
+}
+
+.box {
+    left: 0;
+    top:0;
+    bottom: 0;
+    right: 0;
+    position:absolute;
+    background-color: #444;
+}
+
+main {
+    background-color: #e9eaed;
+}

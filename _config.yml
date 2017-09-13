@@ -1,0 +1,14 @@
+title: Khushman Patel
+email: khushman1@gmail.com
+description: >
+    Description of website
+url: ""
+
+markdown: kramdown
+
+collections:
+    projects:
+        output: true
+    stories:
+        output: false
+

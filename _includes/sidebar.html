@@ -1,0 +1,43 @@
+<div>
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+
+    {% if page_paths %}
+        <nav>
+            <ul class="nav hidden-xs" id="lg-menu">
+                {% for path in page_paths %}
+                    {% assign my_page = site.pages | where: "path", path | first %}
+                    {% if my_page.title %}
+                        {% if page.url == my_page.url %}
+                            <li group="page-title">
+                                <a class="page-link active" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                            </li>
+                        {% else %}
+                            <li group="page-title">
+                                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                            </li>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </ul>
+
+            <ul class="nav visible-xs" id="xs-menu">
+                {% for path in page_paths %}
+                    {% assign my_page = site.pages | where: "path", path | first %}
+                    {% if my_page.title %}
+                        {% if page.url == my_page.url %}
+                            <li group="page-short-title">
+                                <a class="page-link active" href="{{ my_page.url | relative_url }}">{{ my_page.title | slice: 0 }}</a>
+                            </li>
+                        {% else %}
+                            <li group="page-short-title">
+                                <a class="page-link" href="{{ my_page.url | relative_url }}">{{ my_page.title | slice: 0 }}</a>
+                            </li>
+                        {% endif %}
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        </nav>
+    {% endif %}
+
+</div>

@@ -1,0 +1,21 @@
+---
+layout: default
+---
+
+<link rel="stylesheet" href="../assets/projects.css">
+
+{% assign projects = site.projects | sort: 'order' %}
+<section class="row project-cover" id="projects">
+{% for project in projects %}
+    <div class="col-sm-6 col-xs-12 nopadding">
+        <div class="hovereffect">
+            <img src="{{ project.image }}" alt="" class="img-responsive cover-image" />
+            <a href={{ project.url }}>
+                <div class="overlay">
+                    <span class="height-correction"></span><h2 class="nopadding">{{ project.title }}</h2>
+                </div>
+            </a>
+        </div>
+    </div>
+{% endfor %}
+</section>
