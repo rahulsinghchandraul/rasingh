@@ -16,7 +16,7 @@ short-text: |
 
 > And so Housing has a lot of actual content that matches.
 
-
+![placeholder](http://placehold.it/600x300)
 
 
 Such as:
