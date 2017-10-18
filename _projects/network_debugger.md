@@ -1,11 +1,11 @@
 ---
-title: Sample Project
+title: Graphical LTE Debugger
 order: 4
 image: http://placehold.it/800x600/f1c40f/fff
 layout: project_details
 ---
 
-# Sample Project
+# Graphical LTE Debugger
 
 ## This is the actual content though.
 
