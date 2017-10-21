@@ -1,7 +1,13 @@
 <header class="site-header" role="banner">
-    <div class="page-header hidden-xs" id="page-title">
-        <a class="site-title" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
-    </div>
+    <a href="{{ "/" | relative_url }}">
+        <div class="page-header hidden-xs" id="page-title">
+            <div class="potrait">
+                <img src="https://i.pinimg.com/originals/ac/52/f6/ac52f6b1b53b301cf6f24f898c55de24.jpg" style="width:115px;height:115px;border-radius:60px;" />
+            </div>
+            <div class="site-title">{{ site.title | escape }}</div>
+            <div class="tagline">Code & Poetry</div>
+        </div>
+    </a>
     <nav>
         <ul class="nav visible-xs">
             <li><a href="#" data-toggle="offcanvas" class="text-center"><i>To</i></a></li>

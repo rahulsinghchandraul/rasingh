@@ -1,7 +1,8 @@
 ---
 layout: default
-title: Test
-permalink: /test/
+title: Blog
+order: 3
+permalink: /blog/
 ---
 
 This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)

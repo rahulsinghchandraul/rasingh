@@ -1,6 +1,7 @@
 ---
 layout: story
-title: Story
+title: My Story
+nav-bar: false
 permalink: /story/
 ---
 

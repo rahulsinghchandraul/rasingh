@@ -1,6 +1,7 @@
 ---
 title: Housing
 order: 1
+image-url: http://thirteenfingersblog.com/wp-content/uploads/2016/08/blair-breitenstein.jpeg
 short-text: |
     Housing
     =======
@@ -8,30 +9,8 @@ short-text: |
     was a short text once.
 ---
 
-# HOUSING 
+# Housing made my life amaze-bald :D
 
 ## This is the actual content though.
 
-
-
-> And so Housing has a lot of actual content that matches.
-
-![placeholder](http://placehold.it/600x300)
-
-
-Such as:
-
-* This
-* That
-* Then
-
-
-
-
-And a definition list as 
-
-defined
-: given a definition for
-
-undefined
-: not given a definition for (duh)
+Look, just because I don't be givin' no man a foot massage don't make it right for Marsellus to throw Antwone into a glass motherfuckin' house, fuckin' up the way the nigger talks. Motherfucker do that shit to me, he better paralyze my ass, 'cause I'll kill the motherfucker, know what I'm sayin'?

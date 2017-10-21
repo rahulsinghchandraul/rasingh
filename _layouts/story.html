@@ -2,27 +2,21 @@
 layout: default
 ---
 
-<div class="row">
+<div class="row story">
     {%- assign stories = site.stories | sort: 'order' -%}
     {%- for story in stories -%}
     <div class="clearfix">
         {%- assign classname = story.title | camelcase -%}
-        <a data-toggle="collapse" href=".{{ classname }}">
-            <div class="{{ classname }} nopadding collapse in">
-                <div class="col-sm-4 {% cycle '','col-sm-push-8' %} nopadding">
-                    <img src="http://placehold.it/600x300" class="img-responsive">
+            <div class="{{ classname }} story-single">
+                <div class="col-sm-6 {% cycle '','col-sm-push-6' %} nopadding story-image">
+                    <img src="{{ story.image-url }}" class="img-responsive">
                 </div>
-                <div class="col-sm-8 {% cycle '','col-sm-pull-4' %}">
-                    <h1>Sample heading</h1>
-                    <p>{{ story.short-text | markdownify }}</p>
-                </div>
-            </div>
-            <div class="{{ classname }} noapdding collapse">
-                <div class="col-sm-12">
-                    <p>{{ story.content }}</p>
+                <div>
+                    <div class="col-sm-6 {% cycle '','col-sm-pull-6' %} story-content">
+                        <p>{{ story.content }}</p>
+                    </div>
                 </div>
             </div>
-        </a>
     </div>
     {%- endfor -%}
 </div>

@@ -1,10 +1,69 @@
 #sidebar {
-    background-color: transparent;
+    background-color: $white-color;
     min-height: 100%;
+}
+
+.page-header {
+    border: 0;
 }
 
 #site-header {
     padding-left: 15px;
+
+    a {
+        color: black;
+    }
+}
+
+.potrait {
+    margin-bottom: 20px;
+}
+
+.site-title, .tagline {
+    color: black;
+        &:hover {
+            text-decoration: none;
+        }
+}
+
+.tagline {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-weight: lighter;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    font-size: 12px;
+    color: #9B9B9B;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+.site-title {
+    font-family: 'Dancing Script', cursive;
+    font-weight: 400;
+    line-height: 61.2px;
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+#lg-menu {
+    text-align: left;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    .page-link {
+        color: black;
+        text-transform: uppercase;
+    }
+    .project-link {
+        color: #B5B3B3;
+        text-transform: none;
+        font-weight: 300;
+    }
+    a.active {
+        color: #E67D3F;
+    }
 }
 
 /*
