@@ -59,10 +59,6 @@ body {
     bottom: 0;
     right: 0;
     position:absolute;
-    background-color: #444;
-}
-
-main {
     background-color: $background-color;
 }
 
@@ -91,9 +87,6 @@ p {
     margin: 0 0 23px 0;
     color: #4A4A4A;
 }
-a {
-    color: inherit;
-}
-a:hover {
+a, a:hover {
     color: inherit;
 }

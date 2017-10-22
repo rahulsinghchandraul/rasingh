@@ -1,6 +1,11 @@
 #sidebar {
-    background-color: $white-color;
     min-height: 100%;
+}
+
+#potrait {
+    width: $potrait-size;
+    height: $potrait-size;
+    border-radius: ( $potrait-size / 2) + 1;
 }
 
 .page-header {
@@ -62,6 +67,7 @@
     }
     a.active {
         color: #E67D3F;
+        font-weight: bold;
     }
 }
 

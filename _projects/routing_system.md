@@ -3,6 +3,8 @@ title: Routing System
 order: 2
 image: http://placehold.it/800x600/3498db/fff
 layout: project_details
+list-subtitle: Cisco, Aug 2013 to Dec 2014
+list-summary:  Using Cisco’s monitor protocol, it mapped inter-node communication through a network map. Delivered as a solo project.
 ---
 
 # Routing System
