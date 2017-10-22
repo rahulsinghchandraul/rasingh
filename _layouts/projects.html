@@ -7,15 +7,21 @@ layout: default
 {%- assign projects = site.projects | sort: 'order' -%}
 <section class="row project-cover" id="projects">
 {%- for project in projects -%}
-    <div class="col-sm-6 col-xs-12 nopadding">
+    <div class="col-sm-6 col-xs-12 single-project">
         <div class="hovereffect">
             <img src="{{ project.image }}" alt="" class="img-responsive cover-image" />
             <a href={{ project.url }}>
                 <div class="overlay">
-                    <span class="height-correction"></span><h2 class="nopadding">{{ project.title }}</h2>
+                    <div class="info-container">
+                        <!-- span class="height-correction"></span --><h1>{{ project.title }}</h1>
+                        <div class="info">
+                            <h2>Secondary Heading</h2>
+                            <p>Holy crap this works and this is a lot of text so that it goes into another line and I can see exactly what effect it brings forth!</p>
+                        </div>
+                    </div>
                 </div>
             </a>
         </div>
     </div>
-{%- endfor -%}
+    {%- endfor -%}
 </section>
