@@ -65,8 +65,10 @@
         text-transform: none;
         font-weight: 300;
     }
-    a.active {
+    a.active, a.proj-active {
         color: #E67D3F;
+    }
+    a.proj-active {
         font-weight: bold;
     }
 }

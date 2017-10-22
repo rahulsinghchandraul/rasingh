@@ -10,7 +10,7 @@
                     {%- assign my_page = site.pages | where: "path", path | first -%}
                     {%- if my_page.order -%}
                         <li group="page-title">
-                            <a class="page-link {% if page.url == my_page.url %} active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
+                            <a class="page-link {% if page.url == my_page.url %} proj-active{% endif %}" href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
                         </li>
                         {%- if my_page.title == "Projects" -%}
                             {%- assign projects = site.projects | sort: 'order' -%}
