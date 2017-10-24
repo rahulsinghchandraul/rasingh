@@ -20,9 +20,9 @@ An architectural experience, the VR aimed for photorealism and interior space ex
 The primary headset we used was the Gear VR, because of its balance between mobility, performance, visual quality and comfort.
 
 <p>
-    <div class='embed-container'>
-        <iframe title="YouTube video player" src="http://www.youtube.com/embed/CoDJlaAlR1Y" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
-    </div>
+<div class='embed-container'>
+<iframe width="560" height="420" src="http://www.youtube.com/embed/CoDJlaAlR1Y?color=white&theme=light"></iframe>
+</div>
 </p>
 
 ### 3D Model Exploration
