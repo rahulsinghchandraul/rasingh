@@ -19,11 +19,7 @@ An architectural experience, the VR aimed for photorealism and interior space ex
 
 The primary headset we used was the Gear VR, because of its balance between mobility, performance, visual quality and comfort.
 
-<p>
-<div class='embed-container'>
-<iframe title="YouTube video player" src="http://www.youtube.com/embed/CoDJlaAlR1Y?wmode=opaque" frameborder="0" allowfullscreen="allowfullscreen">t</iframe>
-</div>
-</p>
+{% include youtube_player.html id="CoDJlaAlR1Y" %}
 
 ### 3D Model Exploration
 
@@ -31,11 +27,7 @@ Targeted at interior model exploration, the experience emulated walking through 
 
 Some of the features coded in the experience were multiple themes, actual window views, floor changes, sound narrations and screen mirroring. Combined together, these features provided a complete experience for the customer and salesman to engage in a fruitful exploration of the space.
 
-<p>
-<div class='embed-container'>
-<iframe title="YouTube video player" src="http://www.youtube.com/embed/lZcjhcZx2Mo?wmode=opaque" frameborder="0" allowfullscreen="allowfullscreen">t</iframe>
-</div>
-</p>
+{% include youtube_player.html id="lZcjhcZx2Mo" %}
 
 ### Panorama walkthrough
 
