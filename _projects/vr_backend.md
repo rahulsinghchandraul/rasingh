@@ -21,7 +21,7 @@ The primary headset we used was the Gear VR, because of its balance between mobi
 
 <p>
 <div class='embed-container'>
-<iframe width="560" height="420" src="http://www.youtube.com/embed/CoDJlaAlR1Y?color=white&theme=light"></iframe>
+<iframe title="YouTube video player" src="http://www.youtube.com/embed/CoDJlaAlR1Y?wmode=opaque" frameborder="0" allowfullscreen="allowfullscreen">t</iframe>
 </div>
 </p>
 
@@ -32,9 +32,9 @@ Targeted at interior model exploration, the experience emulated walking through 
 Some of the features coded in the experience were multiple themes, actual window views, floor changes, sound narrations and screen mirroring. Combined together, these features provided a complete experience for the customer and salesman to engage in a fruitful exploration of the space.
 
 <p>
-    <div class='embed-container'>
-        <iframe title="YouTube video player" src="http://www.youtube.com/embed/lZcjhcZx2Mo" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
-    </div>
+<div class='embed-container'>
+<iframe title="YouTube video player" src="http://www.youtube.com/embed/lZcjhcZx2Mo?wmode=opaque" frameborder="0" allowfullscreen="allowfullscreen">t</iframe>
+</div>
 </p>
 
 ### Panorama walkthrough
