@@ -21,7 +21,7 @@ The primary headset we used was the Gear VR, because of its balance between mobi
 
 <p>
     <div class='embed-container'>
-        <iframe title="YouTube video player" src="http://www.youtube.com/embed/CoDJlaAlR1Y" frameborder="0" allowfullscreen></iframe>
+        <iframe title="YouTube video player" src="http://www.youtube.com/embed/CoDJlaAlR1Y" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
     </div>
 </p>
 
@@ -33,7 +33,7 @@ Some of the features coded in the experience were multiple themes, actual window
 
 <p>
     <div class='embed-container'>
-        <iframe title="YouTube video player" src="http://www.youtube.com/embed/lZcjhcZx2Mo" frameborder="0" allowfullscreen></iframe>
+        <iframe title="YouTube video player" src="http://www.youtube.com/embed/lZcjhcZx2Mo" frameborder="0" allowfullscreen="allowfullscreen">&nbsp;</iframe>
     </div>
 </p>
 
