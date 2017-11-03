@@ -1,5 +1,6 @@
 .project-details {
     padding-top: 40px;
+    padding-bottom: 40px;
     h1 {
         font-family: 'Roboto Slab', serif;
         font-weight: 700;
@@ -40,21 +41,34 @@
     ul, ol {
         margin-bottom: 40px;
     }
+    .text-center {
+        text-align: center;
+    }
+    #to-top {
+        text-decoration: none;
+    }
+    .to-top-icon {
+        background: #bbb;
+        width: 30px;
+        height: 30px;
+        border-radius: 15px;
+        margin: 0 auto;
+    }
 }
 
 .embed-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
-  max-width: 100%;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
 }
 .embed-container iframe,
 .embed-container object,
 .embed-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
 }
