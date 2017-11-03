@@ -1,7 +1,7 @@
 ---
 title: VR + Backend
 order: 1
-image: /assets/images/vr_project_cover.png
+image: /assets/images/gear_vr.jpg
 layout: project_details
 list-subtitle: Housing.com, Oct 2015 to Sep 2017
 list-summary: An architectural VR experience made from scratch. Supported by a web build system using Three.js.
