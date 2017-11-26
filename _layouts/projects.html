@@ -7,7 +7,7 @@ layout: default
 {%- assign projects = site.projects | sort: 'order' -%}
 <section class="row project-cover" id="projects">
 {%- for project in projects -%}
-    <div class="col-sm-6 col-xs-12 single-project">
+    <div class="col-sm-6 col-xs-12 single-project" {% if project.img-width %}style="clip-path: polygon(0 0, 100% 0, 100% {{ project.img-width }}%, 0 {{ project.img-width }}%);"{% endif %} >
         <div class="hovereffect">
             <img src="{{ project.image }}" alt="" class="img-responsive cover-image" />
             <a href={{ project.url }}>

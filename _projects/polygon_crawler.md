@@ -1,20 +1,20 @@
 ---
 title: Polygon Crawler
 order: 3
-image: http://placehold.it/1200x800/e74c3c/fff
+image: /assets/images/polygons.png
 layout: project_details
-list-subtitle: Cisco, Aug 2013 to Dec 2014
-list-summary:  Using Cisco’s monitor protocol, it mapped inter-node communication through a network map. Delivered as a solo project.
+list-subtitle: Housing, Dec 2014 to  Mar 2015
+list-summary:  A polygon/address crawler based on Google's Mapmaker Service
 ---
 
 # Polygon Crawler
 
-## This is the actual content though.
+## Gathered fids and polygon geo-data
 
-And a definition list as 
+Polygon data allows for efficient address-based representation of geographical data, e.g. apartments in a locality. Categorization of the polygons would be a major task, but the hierarchical address structure Google uses can be crawled using the fid data. This allows us to build a polygon tree for easy clustering and matching, e.g. nearby locality search
 
-defined
-: given a definition for
+![nearby-locality-search](/assets/images/polygons.png)
 
-undefined
-: not given a definition for (duh)
+## State-aware and distributed
+
+The crawler was state-aware, which allowed for resuming on faults, including arbitrary timeouts from Google servers. The independent query design of the system allowed for multiple instances to be run parallely without overlap. This increased throughput time directly by number of cores.
