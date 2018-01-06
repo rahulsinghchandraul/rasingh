@@ -1,7 +1,7 @@
 ---
 layout: resume
 title: Resume
-order: 2
+order: 3
 permalink: /resume/
 resume_pdf_address: /assets/KhushmanResume.pdf
 ---
