@@ -16,17 +16,6 @@
                 {%- endfor -%}
             </ul>
         </div>
-
-        <ul class="nav visible-xs" id="xs-menu">
-            {%- for path in page_paths -%}
-                {%- assign my_page = site.pages | where: "path", path | first -%}
-                {%- if my_page.responsive-icon -%}
-                    <li group="page-short-title">
-                        <a class="page-link {%- if page.url == my_page.url -%}active{%- endif -%}" href="{{ my_page.url | relative_url }}"><img class="responsive-icon" src="{{ my_page.responsive-icon }}" /></a>
-                    </li>
-                {%- endif -%}
-            {%- endfor -%}
-        </ul>
     </nav>
     {%- endif -%}
 
