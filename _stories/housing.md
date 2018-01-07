@@ -1,11 +1,11 @@
 ---
-title: Housing
+title: Mixed reality
 order: 1
-image-url: http://thirteenfingersblog.com/wp-content/uploads/2016/08/blair-breitenstein.jpeg
+image-url: /assets/images/mr_world.jpg
 ---
 
-# I led the VR team at Housing
+# Mixed reality is going to change us
 
-## We made the first scalable real estate VR product in India
+## And in a good way, I think
 
-Led by some of the smartest people in the tech space, Housing fostered a culture of open thought, and encouraged new ideas, while serving a million users a month. A prototype VR app I made led the way to setting up a team to develop a product. With a rigorous process of researching and user testing every feature, we completed a VR experience in three months. It was a success. To optimize the build time, we set up an automated build process with a single point of intervention, bringing down creation times from a magnitude of weeks to hours. New ideas and the freedom to experiment reinforced that research is my calling.
+I’ve realized after leading the VR team at Housing, one of my favourite places to work at. We made the first commercially scalable real estate VR product in India, all the while playing pranks, eating Mumbai’s famous chaat, and sticking together through the tough times. All in all, I’ve figured out my work ethic, made friends for life, and gained crucial experience with mixed reality.

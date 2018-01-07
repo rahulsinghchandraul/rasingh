@@ -1,17 +1,20 @@
 <header class="site-header" role="banner">
-    <a href="{{ "/" | relative_url }}">
-        <div class="page-header hidden-xs" id="page-title">
-            <div class="potrait">
-                <img id="potrait" src="/assets/images/potrait.jpg" />
-            </div>
-            <div class="site-title">{{ site.title | escape }}</div>
-            <div class="tagline">Code & Poetry</div>
-        </div>
-    </a>
     <nav>
         <ul class="nav visible-xs">
-            <li><a href="#" data-toggle="offcanvas" class="text-center"><i>To</i></a></li>
-            <li><a class="site-title" href="{{ "/" | relative_url }}">KP</a></li>
+            <li><a href="#" data-toggle="offcanvas" class="text-center"><img id="navigation-left-arrow" src="/assets/images/left_arrow.svg"></a></li>
+            <li><a id="responsive-site-title" class="site-title" href="{{ "/" | relative_url }}">KP</a></li>
         </ul>
     </nav>
+
+    <div class="page-header hidden-xs" id="page-title">
+        <a href="{{ "/" | relative_url }}">
+            <div>
+                <div class="potrait">
+                    <img id="potrait" src="/assets/images/potrait.jpg" />
+                </div>
+                <div class="site-title">{{ site.title | escape }}</div>
+                <div class="tagline">Code & Poetry</div>
+            </div>
+        </a>
+    </div>
 </header>

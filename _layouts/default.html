@@ -5,15 +5,16 @@
         <div class="site-container">
             <div class="box">
             <div class="row row-offcanvas row-offcanvas-left" id="site-content">
-                    <!-- Sidebar -->
-                    <div class="column col-sm-3 col-xs-1 sidebar-offcanvas text-center nopadding" id="sidebar">
-                        {%- include header.html -%}
-                        {%- include sidebar.html -%}
-                    </div>
-                    <!-- Main content -->
-                    <main class="column col-sm-9 col-xs-11">
-                    {{ content }}
-                    </main>
+                <div id="navigation-button" class="visible-xs"><a href="#" data-toggle="offcanvas" class="text-center"><img src="/assets/images/right_arrow.svg" /></a></div>
+                <!-- Sidebar -->
+                <div class="column col-sm-3 hidden-xs sidebar-offcanvas text-center nopadding" id="sidebar">
+                    {%- include header.html -%}
+                    {%- include sidebar.html -%}
+                </div>
+                <!-- Main content -->
+                <main class="column col-sm-9 col-xs-12">
+                {{ content }}
+                </main>
             </div>
             </div>
         </div>

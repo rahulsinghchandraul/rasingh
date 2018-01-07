@@ -7,7 +7,10 @@ $(document).ready(function() {
         $('#lg-menu').toggleClass('hidden-xs').toggleClass('visible-xs');
         $('#xs-menu').toggleClass('visible-xs').toggleClass('hidden-xs');
         $('#sidebar').toggleClass('nopadding');
+        $('#sidebar').toggleClass('hidden-xs visible-xs');
+        $('#navigation-button').toggleClass('hidden-xs visible-xs');
         //$('#page-title').toggleClass('hidden-xs').toggleClass('visible-xs');
+        //$('#responsive-site-title').toggleClass('hidden-xs');
         //$('#btnShow').toggle();
     });
 });
