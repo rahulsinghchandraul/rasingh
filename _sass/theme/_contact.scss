@@ -1,0 +1,13 @@
+.contact_form {
+    padding-top: 20px;
+    fieldset {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    input, textarea, button {
+        border: none;
+    }
+    #contact-submit {
+        background: gray;
+    }
+}

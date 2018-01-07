@@ -2,24 +2,29 @@
 layout: default
 ---
 
-<div class="contact_form col-sm-offset-2 col-sm-8">  
+<div class="contact_form col-sm-offset-2 col-sm-8">
+    <div class="row">
     <form id="contact" action="https://formspree.io/khushman1@gmail.com" method="POST">
-        <h3>Looking for me?</h3>
-        <h4>I know websites are <i>kewl</i>, but I like to talk to humans too.</h4>
+        <h1>Looking for me?</h1>
+        <h2>I know websites are <i>kewl</i>, but I like to talk to humans too.</h2>
         <fieldset>
-            <input name="contact_name" placeholder="Your name" type="text" tabindex="1" required autofocus>
+            <div class="col-sm-4">Name</div>
+            <input class="col-sm-8" name="contact_name" placeholder="What are you called?" type="text" tabindex="1" required autofocus>
         </fieldset>
         <fieldset>
-            <input name="contact_email"_ placeholder="Your Email Address" type="email" tabindex="2" required>
+            <div class="col-sm-4">Email</div>
+            <input class="col-sm-8" name="contact_email"_ placeholder="Your Email" type="email" tabindex="2" required>
         </fieldset>
         <fieldset>
-            <input name="contact_phone"_ placeholder="Your Phone Number" type="tel" tabindex="3" required>
+            <div class="col-sm-4">Phone</div>
+            <input class="col-sm-8" name="contact_phone"_ placeholder="Your 'real' phone number" type="tel" tabindex="3" required>
         </fieldset>
         <fieldset>
-            <textarea name="contact_message" placeholder="Type your Message Here...." tabindex="5" required></textarea>
+            <div class="col-sm-4">Message</div>
+            <textarea class="col-sm-8" name="contact_message" placeholder="Type your Message Here...." tabindex="5" required></textarea>
         </fieldset>
         <fieldset>
-            <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+            <button class="col-sm-offset-4 col-sm-2" name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
         </fieldset>
     </form>
 
