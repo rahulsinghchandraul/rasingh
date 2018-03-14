@@ -49,7 +49,7 @@ Soon after completing the VR experience, we had issues where due to a small team
 
 Developed in three.js, the front end design panel allowed operators to create houses from scratch. Tied into Housing’s database, floor plans and configuration details were directly provided. Armed with a floor plan and an interior furnishing sketch, an operator could create a detailed house in a matter of hours.
 
-![frontend-panel](/assets/images/vr_frontend.png)
+![frontend-panel](/assets/images/vr_frontend.jpg)
 
 ### Rails backend
 

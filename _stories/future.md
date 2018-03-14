@@ -1,7 +1,7 @@
 ---
 title: Future
 order: 5
-image-url: http://placehold.it/1200
+image-url: /assets/images/happily_ever_after.jpg
 ---
 
 # I believe in the future

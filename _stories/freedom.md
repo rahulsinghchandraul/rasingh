@@ -1,7 +1,7 @@
 ---
 title: Freedom
 order: 3
-image-url: http://placehold.it/1200
+image-url: /assets/images/mad_tea_party.jpg
 ---
 
 # I love freedom

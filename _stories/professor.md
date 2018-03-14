@@ -1,7 +1,7 @@
 ---
 title: Professor
 order: 4
-image-url: http://placehold.it/1200
+image-url: /assets/images/the_cool_professor.jpg
 ---
 
 # Professor Gandalf
