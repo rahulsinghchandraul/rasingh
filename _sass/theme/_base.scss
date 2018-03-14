@@ -96,14 +96,14 @@ a, a:hover {
 #navigation-button {
     position: absolute;
     top: 10px;
-    left: 0px;
+    left: 2px;
     z-index: 1;
-    background: white;
+    background: transparent;
     padding-top: 2px;
     padding-right: 2px;
     padding-bottom: 2px;
     img {
-        width: 2em;
+        width: 1.5em;
         height: 2em;
     }
 }
