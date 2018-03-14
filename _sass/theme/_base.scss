@@ -41,7 +41,9 @@ body {
         display: table;
     }
 }
-
+#main-content {
+    padding-left: 25%;
+}
 .column {
     &:after {
         clear: both;
