@@ -1,6 +1,6 @@
 ---
 title: VR + Backend
-order: 1
+order: 4
 image: /assets/images/gear_vr.jpg
 layout: project_details
 list-subtitle: Housing.com, Oct 2015 to Sep 2017

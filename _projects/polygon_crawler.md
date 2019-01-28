@@ -1,6 +1,6 @@
 ---
 title: Polygon Crawler
-order: 3
+order: 2
 image: /assets/images/polygons.png
 layout: project_details
 list-subtitle: Housing, Dec 2014 to  Mar 2015

@@ -4,7 +4,7 @@ layout: default
 
 <link rel="stylesheet" href="../assets/projects.css">
 
-{%- assign projects = site.projects | sort: 'order' -%}
+{%- assign projects = site.projects | sort: 'order' | reverse -%}
 <section class="row project-cover" id="projects">
 {%- for project in projects -%}
     <div class="col-sm-6 col-xs-12 single-project" {% if project.img-width %}style="clip-path: polygon(0 0, 100% 0, 100% {{ project.img-width }}%, 0 {{ project.img-width }}%);"{% endif %} >
