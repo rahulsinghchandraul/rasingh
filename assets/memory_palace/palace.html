@@ -1,0 +1,122 @@
+<html>
+<head>
+  <script src="./js/aframe.min.js"></script>
+  <script src="./js/aframe-lerp-component.min.js"></script>
+  <script src="./js/textutils.js"></script>
+  <script src="https://unpkg.com/aframe-html-shader@0.2.0/dist/aframe-html-shader.min.js"></script>
+  <script src="https://rawgit.com/fernandojsg/aframe-teleport-controls/master/dist/aframe-teleport-controls.min.js"></script>
+  <title>Simple Memory Palace</title>
+</head>
+<body>
+<a-scene antialias="true">
+  <a-entity id="cameraRig">
+    <a-camera id="camera">
+      <a-cursor></a-cursor>
+    </a-camera>
+  </a-entity>
+
+  <a-assets>
+    <a-asset-item id="palace-obj" src="3DModels/palace.obj"></a-asset-item>
+    <a-asset-item id="palace-mtl" src="3DModels/palace.mtl"></a-asset-item>
+  </a-assets>
+
+  <a-entity teleport-controls="cameraRig: #cameraRig; teleportOrigin: #camera;"></a-entity>
+  <a-entity teleport-controls="cameraRig: #cameraRig; teleportOrigin: #camera;"></a-entity>
+  <a-sky color="#ECECEC"></a-sky>
+  <a-plane position="0 -4 4" rotation="-90 0 0" width="100" height="100" color="#7BC8A4"></a-plane>
+  <a-plane position="0 10 4" rotation="90 0 0" width="100" height="100" color="#99ffff"></a-plane>
+
+  <a-entity position="-2 -3.9 15">
+  <a-obj-model src="#palace-obj" material="color: #999" scale="3 3 3"></a-obj-model>
+    <a-text color="#222" position="-0.7 0.7 -10.7" rotation="-45 90 0" font="./fonts/sb.fnt" value="Introduction"></a-text>
+    <a-text color="#222" position="2 0.7 -14.6" rotation="-45 0 0" font="./fonts/sb.fnt" value="VR 101"></a-text>
+    <a-text color="#222" position="2.65 0.7 -8" rotation="-45 180 0" font="./fonts/sb.fnt" value="AR 101"></a-text>
+    <a-text color="#4c00e6" position="5.6 0.7 -12.3" rotation="-45 -90 0" font="./fonts/sb.fnt" value="Exploring the palace"></a-text>
+  </a-entity>
+
+  <a-entity id="walls">
+    <a-plane position="11 2 6" rotation="0 -90 0" width="18" height="10" color="#FFF6D1"></a-plane>
+    <a-plane position="4.5 2 -5.5" rotation="0 -60 0" width="6" height="10" color="#FFF6D1"></a-plane>
+    <a-plane position="-2 2 -6.5" rotation="0 0 0" width="12" height="10" color="#FFF6D1"></a-plane>
+    <a-plane position="-5 2 -5.5" rotation="0 60 0" width="6" height="10" color="#FFF6D1"></a-plane>
+    <a-plane position="8.9 2 -3" rotation="0 0 0" width="6" height="10" color="#FFF6D1"></a-plane>
+    <a-plane position="-9.3 2 -2.9" rotation="0 0 0" width="6" height="10" color="#FFF6D1"></a-plane>
+    <a-plane position="-11 2 6" rotation="0 90 0" width="18" height="10" color="#FFF6D1"></a-plane>
+  </a-entity>
+
+  <!-- Paragraphs in front -->
+  <a-entity id="scrolling-vertical-text" position="-3 2.5 -6">
+    <a-plane position="2.5 4.5 0.1" width="6" height="6" color="#555"></a-plane>
+    <a-text color="#fff" position="0 2 0.15" value="Scrollable long paragraph"></a-text>
+    <a-entity autoscroller="finalPosition: 0 10 0">
+      <a-plane color="#000" position="2.5 -7.5 -0.1" height="20" width="6"></a-plane>
+      <a-text id="123" color="#fff" position="0 -7 0" 3dtexteffect="secondaryColor: #eee" font="./fonts/sb.fnt" value="McCloud's thoughtful and at the same\ntime playful approach inspired us to\ntry to explain a medium in and through\nthe same medium. What McCloud did for\ncomics, we want to do for VR and AR.\nAt first we imagined that we could\nsimply create a digital form that\nwould contain a book's worth of text\nand at the same time be an augmented\nor virtual application. But we soon\nrealized that that would not work.\nOne reason that McCloud was able to\nwrite a treatise on comics in the form\nof a comic is that both a traditional\nmonograph and a comic exist in the\nsame medium of ink on paper. Both\nconsist of text and illustrations,\nalthough in different forms and ratios.\nIn our case, however, AR and VR cannot\nfunction as reality media on the printed\npage; they are born digital media forms.\nIt is difficult to illustrate AR and VR\nin the pages of a printed book, and\nequally difficult to incorporate a\nlengthy textual discussion in an AR or\nVR application.\n\nSo while McCloud was able to express\nhimself in a single medium, we have\nto use two separate formats: print\nand digital. These two formats enable\nus to present reality media from two\nperspectives: from the “inside” as well\nas the “outside”. The purpose of the\ndigital version is not merely to\nillustrate the affordances of the new\nmedia for the reader, but to allow her\nto enact or even to inhabit the media.\nThe printed book provides a perspective\nthat is the opposite of an immersive\nexperience of AR and VR: a critical\nexplanation of these media in the\ncontexts of media history and their\ndesign aesthetics. The printed version\ncan also address the making of the digital\nversion and reflect on the future\npotential of the digital book. The printed\nbook is independent of the digital,\nalthough the two are in dialogue. The\nreader will be able to understand the\nprinted book without using the digital\nversion, but her understanding will be\nenhanced if she experiences both forms."></a-text>
+    </a-entity>
+    <a-plane position="2.5 -6.5 0.1" width="6" height="0.3" color="#555"></a-plane>
+  </a-entity>
+
+  <!-- Side by side -->
+  <a-entity id="side-by-side-text" position="10.5 2.5 3.5" rotation="0 -90 0">
+    <a-plane position="2.5 4.2 0.1" width="15" height="4" color="#555"></a-plane>
+    <a-text color="#fff" position="0 2.5 0.15" value="Side by side paragraphs"></a-text>
+    <a-entity>
+      <a-plane color="#000" position="2.5 -2.5 -0.1" height="10" width="15"></a-plane>
+      <a-text color="#fff" position="-4 -2 0" 3dtexteffect="secondaryColor: #ddd" font="./fonts/sb.fnt" value="McCloud's thoughtful and at the same\ntime playful approach inspired us to\ntry to explain a medium in and through\nthe same medium. What McCloud did for\ncomics, we want to do for VR and AR.\nAt first we imagined that we could\nsimply create a digital form that\nwould contain a book's worth of text\nand at the same time be an augmented\nor virtual application. But we soon\nrealized that that would not work.\nOne reason that McCloud was able to\nwrite a treatise on comics in the form\nof a comic is that both a traditional\nmonograph and a comic exist in the\nsame medium of ink on paper. Both\nconsist of text and illustrations,\nalthough in different forms and ratios.\nIn our case, however, AR and VR cannot\nfunction as reality media on the printed\npage; they are born digital media forms.\nIt is difficult to illustrate AR and VR\nin the pages of a printed book, and\nequally difficult to incorporate a\nlengthy textual discussion in an AR or\nVR application."></a-text>
+      <a-text color="#fff" position="2 -2 0" 3dtexteffect="secondaryColor: #ddd" font="./fonts/sb.fnt" value="So while McCloud was able to express\nhimself in a single medium, we have\nto use two separate formats: print\nand digital. These two formats enable\nus to present reality media from two\nperspectives: from the “inside” as well\nas the “outside”. The purpose of the\ndigital version is not merely to\nillustrate the affordances of the new\nmedia for the reader, but to allow her\nto enact or even to inhabit the media.\nThe printed book provides a perspective\nthat is the opposite of an immersive\nexperience of AR and VR: a critical\nexplanation of these media in the\ncontexts of media history and their\ndesign aesthetics. The printed version\ncan also address the making of the digital version and reflect on the future\npotential of the digital book. The printed\nbook is independent of the digital,\nalthough the two are in dialogue. The\nreader will be able to understand the\nprinted book without using the digital\nversion, but her understanding will be\nenhanced if she experiences both forms."></a-text>
+    </a-entity>
+    <a-plane position="2.5 -6.5 0.1" width="15" height="0.3" color="#555"></a-plane>
+  </a-entity>
+
+  <!-- Font/Color comparison -->
+  <a-entity id="font-color-text" position="-10.5 2.5 8" rotation="0 90 0">
+    <a-plane position="2.5 4.2 0.1" width="15" height="4" color="#555"></a-plane>
+    <a-text color="#fff" position="0 2.5 0.15" value="Font and colour comparisons"></a-text>
+    <a-entity>
+      <a-plane color="#333" position="-1.5 -2.5 -0.1" height="10" width="7"></a-plane>
+      <a-text color="#aaa" position="-4 -2 0" 3dtexteffect="secondaryColor: #999" font="./fonts/sb.fnt" value="McCloud's thoughtful and at the same\ntime playful approach inspired us to\ntry to explain a medium in and through\nthe same medium. What McCloud did for\ncomics, we want to do for VR and AR.\nAt first we imagined that we could\nsimply create a digital form that\nwould contain a book's worth of text\nand at the same time be an augmented\nor virtual application. But we soon\nrealized that that would not work.\nOne reason that McCloud was able to\nwrite a treatise on comics in the form\nof a comic is that both a traditional\nmonograph and a comic exist in the\nsame medium of ink on paper. Both\nconsist of text and illustrations,\nalthough in different forms and ratios.\nIn our case, however, AR and VR cannot\nfunction as reality media on the printed\npage; they are born digital media forms.\nIt is difficult to illustrate AR and VR\nin the pages of a printed book, and\nequally difficult to incorporate a\nlengthy textual discussion in an AR or\nVR application."></a-text>
+      <a-plane color="#ddd" position="6 -2.5 -0.1" height="10" width="7"></a-plane>
+      <a-text color="#333" position="3 -1.5 0" 3dtexteffect="secondaryColor: #444" letter-spacing="1.2" line-height="50" value="McCloud's thoughtful and at the same\ntime playful approach inspired us to\ntry to explain a medium in and through\nthe same medium. What McCloud did for\ncomics, we want to do for VR and AR.\nAt first we imagined that we could\nsimply create a digital form that\nwould contain a book's worth of text\nand at the same time be an augmented\nor virtual application. But we soon\nrealized that that would not work.\nOne reason that McCloud was able to\nwrite a treatise on comics in the form\nof a comic is that both a traditional\nmonograph and a comic exist in the\nsame medium of ink on paper. Both\nconsist of text and illustrations,\nalthough in different forms and ratios.\nIn our case, however, AR and VR cannot\nfunction as reality media on the printed\npage; they are born digital media forms.\nIt is difficult to illustrate AR and VR\nin the pages of a printed book, and\nequally difficult to incorporate a\nlengthy textual discussion in an AR or\nVR application."></a-text>
+    </a-entity>
+    <a-plane position="2.5 -6.5 0.1" width="15" height="0.3" color="#555"></a-plane>
+  </a-entity>
+
+  <!-- Paragraph in back -->
+  <a-entity id="looking-at-vertical-text" lookatelement position="-5 2.5 18">
+    <a-plane position="2.5 3.5 0.1" width="6" height="4" color="#555"></a-plane>
+    <a-text color="#fff" position="0 2 0.15" value="This paragraph looks at you!"></a-text>
+    <a-entity>
+      <a-plane color="#000" position="2.5 -7.5 -0.1" height="20" width="6"></a-plane>
+      <a-text color="#fff" position="0 -2.5 0" 3dtexteffect="secondaryColor: #ddd" font="./fonts/sb.fnt" value="McCloud's thoughtful and at the same\ntime playful approach inspired us to\ntry to explain a medium in and through\nthe same medium. What McCloud did for\ncomics, we want to do for VR and AR.\nAt first we imagined that we could\nsimply create a digital form that\nwould contain a book's worth of text\nand at the same time be an augmented\nor virtual application. But we soon\nrealized that that would not work.\nOne reason that McCloud was able to\nwrite a treatise on comics in the form\nof a comic is that both a traditional\nmonograph and a comic exist in the\nsame medium of ink on paper. Both\nconsist of text and illustrations,\nalthough in different forms and ratios.\nIn our case, however, AR and VR cannot\nfunction as reality media on the printed\npage; they are born digital media forms.\nIt is difficult to illustrate AR and VR\nin the pages of a printed book, and\nequally difficult to incorporate a\nlengthy textual discussion in an AR or\nVR application."></a-text>
+    </a-entity>
+    <a-plane position="2.5 -6.5 0.1" width="6" height="0.3" color="#555"></a-plane>
+  </a-entity>
+
+  <!-- Paragraph in back zoom -->
+  <a-entity id="zooming-text" position="8 2.5 18" rotation="0 180 0">
+    <a-plane position="2.5 3.5 0.1" width="6" height="4" color="#555"></a-plane>
+    <a-text color="#fff" position="0 2 0.15" value="This paragraph zooms in when you look at it"></a-text>
+    <a-entity>
+      <a-plane color="#000" position="2.5 -7.5 -0.1" height="20" width="6"></a-plane>
+      <a-text color="#fff" position="0 -2.5 0" 3dtexteffect="secondaryColor: #ddd" font="./fonts/sb.fnt" value="McCloud's thoughtful and at the same\ntime playful approach inspired us to\ntry to explain a medium in and through\nthe same medium. What McCloud did for\ncomics, we want to do for VR and AR.\nAt first we imagined that we could\nsimply create a digital form that\nwould contain a book's worth of text\nand at the same time be an augmented\nor virtual application. But we soon\nrealized that that would not work.\nOne reason that McCloud was able to\nwrite a treatise on comics in the form\nof a comic is that both a traditional\nmonograph and a comic exist in the\nsame medium of ink on paper. Both\nconsist of text and illustrations,\nalthough in different forms and ratios.\nIn our case, however, AR and VR cannot\nfunction as reality media on the printed\npage; they are born digital media forms.\nIt is difficult to illustrate AR and VR\nin the pages of a printed book, and\nequally difficult to incorporate a\nlengthy textual discussion in an AR or\nVR application."></a-text>
+    </a-entity>
+    <a-plane position="2.5 -6.5 0.1" width="6" height="0.3" color="#555"></a-plane>
+  </a-entity>
+
+  <!-- <a-text position="2 10 -6" color="#000" value="Static good font"></a-text>
+  <a-gltf-model position="3 1.5 -6" rotation="0 0 0" src="#complete-samsung"></a-gltf-model>McCloud's thoughtful and at the same\ntime playful approach inspired us to\ntry to explain a medium in and through\nthe same medium. What McCloud did for\ncomics, we want to do for VR and AR.\nAt first we imagined that we could\nsimply create a digital form that\nwould contain a book's worth of text\nand at the same time be an augmented\nor virtual application. But we soon\nrealized that that would not work.\nOne reason that McCloud was able to\nwrite a treatise on comics in the form\nof a comic is that both a traditional\nmonograph and a comic exist in the\nsame medium of ink on paper. Both\nconsist of text and illustrations,\nalthough in different forms and ratios.\nIn our case, however, AR and VR cannot\nfunction as reality media on the printed\npage; they are born digital media forms.\nIt is difficult to illustrate AR and VR\nin the pages of a printed book, and\nequally difficult to incorporate a\nlengthy textual discussion in an AR or\nVR application.
+  <a-entity position="3 1.5 -7" geometry="primitive: plane; height: 19; width: 7" material="side: double; color: #000"></a-entity> -->
+
+  <!-- Paragraph on the right side
+  <a-text id="side-by-side" position="0 2 -2" rotation = "0 0 0" color="#f0f" value="Side by side paragraphs" 3DTextEffect></a-text>
+  <a-gltf-model position="7 1 2" rotation="0 -90 0" color="#FFF" src="#para1"></a-gltf-model>
+  <a-gltf-model position="7 1 10.5" rotation="0 -90 0" color="#4CC3D9" src="#para2"></a-gltf-model> -->
+
+  <!-- Auto-scrolling paragraph on the left side -->
+  <!-- <a-text position="-7 0 10" rotation = "0 90 0" color="#000" value="Auto-Scrolling paragraphs"></a-text>
+  <a-gltf-model id="scrolling-complete-para" lerp="properties: position" position="-7 -3.5 2" rotation="0 90 0" color="#4CC3D9" autoscroller="finalPosition: -7 -3.5 2" src="#complete-thick"></a-gltf-model> -->
+</a-scene>
+
+<script>
+</script>
+</body>
+</html>

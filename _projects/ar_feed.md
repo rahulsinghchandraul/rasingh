@@ -1,6 +1,6 @@
 ---
 title: AR Live Feeds
-order: 6
+order: 7
 image: /assets/images/augmented_reality.jpg
 layout: project_details
 list-subtitle: Georgia Tech, Jan 2019 to Present
