@@ -19,7 +19,7 @@ It would be weird, wouldn't it? Would you just make it like a physical book? Scr
 
 That would not be using all the capabilities of the medium. The closest analogy that we can find is in buildings which are meant convey information, e.g. museums. As such, VR gives us more freedom with how we build our environment.
 
-A memory palace, sometimes used as a mechanism for memorization, can be better example of a space designed to convey as much information as a book. To explore how this would work, and if displaying large amounts of text in VR, I designed this palace to look at what text looks best in a headset.
+A memory palace, sometimes used as a mechanism for memorization, can be better example of a space designed to convey as much information as a book. To explore how this would work, and if displaying large amounts of text in VR makes sense, I designed this palace to look at what text looks best in a headset. Written in AFrame.
 
 {% raw %}
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500px" src="../assets/memory_palace/palace.html"></iframe>
