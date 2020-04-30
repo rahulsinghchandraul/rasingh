@@ -1,5 +1,5 @@
 ---
-title: Universal AR Luncher
+title: Universal AR Launcher
 order: 7
 image: /assets/images/augmented_reality.jpg
 layout: project_details
