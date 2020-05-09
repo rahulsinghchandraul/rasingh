@@ -47,8 +47,8 @@ Created using THREE.JS, I hope that this demo can showcase the interface experim
 
 ## Paper
 
-<object data="{{ page.paper-pdf-address }}" type="application/pdf" width="100%" height="100%">
-<iframe src="{{ page.paper-pdf-address }}" style="border: none;" width="100%" height="100%">
+<object data="{{ page.paper-pdf-address }}" type="application/pdf" width="100%" height="500px">
+<iframe src="{{ page.paper-pdf-address }}" style="border: none;" width="100%" height="500px">
 This browser does not support PDFs. Please download the PDF to view it: <a href="{{ page.paper-pdf-address }}">Download PDF</a>
 </iframe>
 </object>
