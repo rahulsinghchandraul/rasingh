@@ -1,14 +1,14 @@
 ---
-title: Universal AR Launcher
+title: Glanceable AR Launcher
 order: 7
-image: /assets/images/augmented_reality.jpg
+image: /assets/images/ar_launcher.png
 layout: project_details
 list-subtitle: Georgia Tech, Jan 2019 to Present
-list-summary:  An interace to present real time AR feeds depending on context
+list-summary:  An interace to present real time AR feeds by user context and environment
 paper-pdf-address: /assets/AR_Launcher_Final_Paper.pdf
 ---
 
-# Universal AR Launcher
+# Glanceable AR Launcher
 
 AR headsets have the potential to be an effective medium to display various information needed by users. In this project, I explored the paradigm of glancability for AR headsets by implementing a glanceable AR "launcher" which uses the user environment to be unobtrusive while still being effective at providing information to the user. The proof of concept is implemented using Three.js, and can be viewed below.
 
@@ -32,10 +32,16 @@ Apart from the contexts, we make sure that the UI is highly responsive to where 
 The implemented UI interface functions are:
 
 * Enabling/Disabling feeds
+
+![menu-enable-disable](/assets/images/menu_select.gif)
+
 * Grouping feeds together
+
+![merge-feed](/assets/images/merging.gif)
+
 * Pinning a region to a surface
 
----------------- GIFs coming soon!
+![pin-feed](/assets/images/pinning.gif)
 
 ## Demo
 
@@ -47,8 +53,8 @@ Created using THREE.JS, I hope that this demo can showcase the interface experim
 
 ## Paper
 
-<object data="{{ page.paper-pdf-address }}" type="application/pdf" width="100%" height="500px">
-<iframe src="{{ page.paper-pdf-address }}" style="border: none;" width="100%" height="500px">
+<object data="{{ page.paper-pdf-address }}" type="application/pdf" width="100%" height="1200px">
+<iframe src="{{ page.paper-pdf-address }}" style="border: none;" width="100%" height="1200px">
 This browser does not support PDFs. Please download the PDF to view it: <a href="{{ page.paper-pdf-address }}">Download PDF</a>
 </iframe>
 </object>
