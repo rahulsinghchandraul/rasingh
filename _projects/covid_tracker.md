@@ -26,8 +26,8 @@ Due to a lack of time, we couldn't implement all the planned features for the in
 ### Video
 
 <video width="320" height="240" controls>
-  <source src="assets/covid_tracker.mp4" type="video/mp4">
-  Your browser does not support the video tag. Download the video <a href="assets/covid_tracker.mp4">here</a>.
+  <source src="../assets/covid_tracker.mp4" type="video/mp4">
+  Your browser does not support the video tag. Download the video <a href="../assets/covid_tracker.mp4">here</a>.
 </video>
 
 ## Report
