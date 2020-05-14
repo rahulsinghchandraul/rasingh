@@ -1,6 +1,6 @@
 ---
 title: Glanceable AR Launcher
-order: 7
+order: 8
 image: /assets/images/ar_launcher.png
 layout: project_details
 list-subtitle: Georgia Tech, Jan 2019 to Present
