@@ -46,6 +46,7 @@ The implemented UI interface functions are:
 ## Demo
 
 Created using THREE.JS, I hope that this demo can showcase the interface experiments I am performing with glancable AR, real world spaces and WebXR.
+Note: In VR Mode, the controllers might not function properly and crash the demo. I am working on that issue, estimated update: 06/01/2020
 
 {% raw %}
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500px" src="https://khushman1.gitlab.io/spacefeed/"></iframe>
