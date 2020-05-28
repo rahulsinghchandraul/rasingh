@@ -1,6 +1,6 @@
 ---
 title: Mixed reality
-order: 1
+order: 5
 image-url: /assets/images/mr_world.jpg
 ---
 

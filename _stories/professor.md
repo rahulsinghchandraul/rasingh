@@ -1,6 +1,6 @@
 ---
 title: Professor
-order: 4
+order: 2
 image-url: /assets/images/the_cool_professor.jpg
 ---
 
