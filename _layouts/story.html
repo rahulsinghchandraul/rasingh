@@ -3,7 +3,7 @@ layout: default
 ---
 
 <div class="row story">
-    {%- assign stories = site.stories | sort: 'order' -%}
+    {%- assign stories = site.stories | sort: 'order' | reverse -%}
     {%- for story in stories -%}
     <div class="clearfix">
         {%- assign classname = story.title | camelcase -%}
