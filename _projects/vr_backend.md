@@ -19,6 +19,8 @@ An architectural experience, the VR aimed for photorealism and interior space ex
 
 The primary headset we used was the Gear VR, because of its balance between mobility, performance, visual quality and comfort.
 
+A video from a demo we built for the RERA conference in Mumbai. The experience consisted of controlled playback of the video with visual cues guiding the user's gaze in all directions around them.
+
 {% include youtube_player.html id="CoDJlaAlR1Y" %}
 
 ### 3D Model Exploration
