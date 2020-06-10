@@ -12,7 +12,7 @@ paper-pdf-address: /assets/AR_Launcher_Final_Paper.pdf
 
 AR headsets have the potential to be an effective medium to display various information needed by users. In this project, I explored the paradigm of glancability for AR headsets by implementing a glanceable AR "launcher" which uses the user environment to be unobtrusive while still being effective at providing information to the user. The proof of concept is implemented using Three.js, and can be viewed below.
 
-## Glancability
+## Glanceability
 
 The primary aim of the launcher is to display information from subscribed feeds to the user. The user interface needs to provide feed and region management commands, and can be minimal. The necessary UI functions needed are:
 
@@ -46,7 +46,7 @@ The implemented UI interface functions are:
 ## Demo
 
 Created using THREE.JS, I hope that this demo can showcase the interface experiments I am performing with glancable AR, real world spaces and WebXR.
-Note: In VR Mode, the controllers might not function properly and crash the demo. I am working on that issue, estimated update: 06/01/2020
+Note: In VR Mode, the controllers might not function properly and crash the demo. I am working on that issue, estimated update: 15/06/2020
 
 {% raw %}
 <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="100%" height="500px" src="https://khushman1.gitlab.io/spacefeed/"></iframe>

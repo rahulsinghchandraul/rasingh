@@ -17,7 +17,7 @@ Isolines are geometrical shapes which indicate times to commute from a particula
 
 Isolines are a computationally intensive task, often requiring multiple polygon union statements to calculate. We preprocessed and cached isoline polygons to make the system realtime. To provide a feasible product, we provided fixed search query intervals and search from establishments.
 
-A reasonably accurate representation including historical traffic data was provided via an approximation function which could provide an optimal average-case scenario from the point in question. Crawling in a grid over cities, we could precompute and cache the isolines for all establishments. After 4 months of development, including 2 weeks of crawling isolines, our system was ready for over 25 cities in India.
+A reasonably accurate representation including historical traffic data was provided via an approximation function which could provide an optimal average-case scenario from the point in question. Crawling in a grid over cities, we could precompute and cache the isolines for all establishments. After 3 months of development, including 2 weeks of crawling isolines, our system was ready for over 25 cities in India.
 
 ## Response
 

@@ -1,5 +1,5 @@
 ---
-title: VR + Backend
+title: HousingVR + Backend
 order: 4
 image: /assets/images/gear_vr.jpg
 layout: project_details
@@ -11,7 +11,7 @@ list-summary: An architectural VR experience made from scratch. Supported by a w
 
 ## VR Experience
 
-An architectural experience, the VR aimed for photorealism and interior space exploration as it’s primary offerings. These factors were empirically shown to be the most influential with buyers for shortlisting properties, and the experience was targeted as a precursor to actual site visits before purchases. To cover all aspects of the visit, three experience types were integrated into the application:
+An architectural experience, the VR offering aimed for photorealism and interior space exploration as it’s primary offerings. These factors were empirically shown to be the most influential with buyers for shortlisting properties, and the experience was targeted as a precursor to actual site visits before purchases. To cover all aspects of the visit, three experience types were integrated into the application:
 * To-scale 3D model exploration
 * Multiple Panorama walkthrough
 * 360 Videos
@@ -41,7 +41,7 @@ Mainly aimed at automating the process of showcasing the property, and as vanity
 
 ## Backend build system
 
-Soon after completing the VR experience, we had issues where due to a small team size, it took us up to a month to complete a single VR build. We needed to productise this process and reduce the build time significantly. Identifying that most interior 3D models were made through a similar process, and that we could modularize the model creation, we created a build system operated through a web front end by an operator, who could design the house and send it for processing to Unity, which created and launched the experience as an app. The build time was cut down from multiple weeks to less than a day, allowing for much higher delivery potential and scalability. The system was divided into three parts:
+Soon after completing the VR experience, we had issues where due to a small team size, it took us about 2 months to complete a single VR build. We needed to productise this process and reduce the build time significantly. Identifying that most interior 3D models were made through a similar process, and that we could modularize the model creation, we created a build system operated through a web front end by an operator, who could design the house and send it for processing to Unity, which created and launched the experience as an app. The build time was cut down from multiple weeks to less than a day, allowing for much higher delivery potential and scalability. The system was divided into three parts:
 1. Front end design panel to provide design parameters
 2. Rails backend to add meta-data and connect to Unity
 3. Unity build system for model creation and app generation

@@ -4,14 +4,14 @@ order: 6
 image: /assets/images/memory_palace.png
 layout: project_details
 list-subtitle: Georgia Tech, Aug 2018 to Dec 2018
-list-summary:  An exploration of representing text in a Virtual Reality medium.
+list-summary:  An exploration of representing text in VR
 ---
 
 # VR Memory Palace
 
 ## Text? In VR?
 
-Virtual Reality is a visual medium which has not been used for text communication. It is also counter-intuitive. After all a picture is worth a thousand words. But, words are useful in describing complex concepts. A book describing the concepts of AR and VR - in VR would need a lot of text.
+Virtual Reality is a visual medium which needs text to display detailed information, but text is hard to represent well in 3D, at such low resolutions as VR displays. It is also counter-intuitive. After all a picture is worth a thousand words. But, words are useful in describing complex concepts. A book describing the concepts of AR and VR - in VR would need a lot of text.
 
 ## What would a book in VR look like?
 

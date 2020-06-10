@@ -12,7 +12,7 @@ img-width: 81.1
 
 ## LTE network debugging is hard
 
-LTE consists of multiple internal network nodes, and they have significant network messages to perform internal tasks. Debugging all of these nodes together is very hard, and it often involves manually going through Cisco's monitor protocol logs, which are significant for complex operations. Parallel calls add to the complexity and create an environment where often bugs are hotfixed instead of fixing at the source, due to the root cause being unknown.
+LTE consists of multiple internal network nodes, and they have significant network communication to perform internal tasks. Debugging all of these nodes together is hard, and it often involves manually going through Cisco's monitor protocol logs, which are significant for complex operations. Parallel calls add to the complexity and create an environment where bugs are often hotfixed instead of fixing at the source, due to the root cause being unknown.
 
 *A sample LTE call flow*
 
