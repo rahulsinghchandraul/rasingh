@@ -1,7 +1,7 @@
 ---
 title: Polygon Crawler
 order: 2
-image: /assets/images/polygons.png
+image: ./assets/images/polygons.png
 layout: project_details
 list-subtitle: Housing, Dec 2014 to  Mar 2015
 list-summary:  A polygon/address crawler based on Google's Mapmaker Service
@@ -13,7 +13,7 @@ list-summary:  A polygon/address crawler based on Google's Mapmaker Service
 
 Polygon data allows for efficient address-based representation of geographical data, e.g. apartments in a locality. Categorization of the polygons would be a major task, but the hierarchical address structure Google uses can be crawled using the fid data. This allows us to build a polygon tree for easy clustering and matching, e.g. nearby locality search
 
-![nearby-locality-search](/assets/images/polygons.png)
+![nearby-locality-search](./assets/images/polygons.png)
 
 ## State-aware and distributed
 

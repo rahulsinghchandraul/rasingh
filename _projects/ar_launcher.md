@@ -23,7 +23,7 @@ The primary aim of the launcher is to display information from subscribed feeds 
 
 Glanceable is said to be the quality of letting users get information quickly and with low effort. Glanceable visuals are fastest interacted with when they have a high degree of symbolism, or are text. To that end, all feeds described in this interface have a primary and secondary context. The primary context provides a visual to distinguish between feeds when quickly navigating to a particular feed. The secondary context is shown when the user is looking at a feed, and adds more detail to the feed and the user interface. An example of both can be seen below.
 
-![primary-secondary-contexts](/assets/images/contexts.gif)
+![primary-secondary-contexts](./assets/images/contexts.gif)
 
 Apart from the contexts, we make sure that the UI is highly responsive to where the user glances to it. Every element gives feedback for a glance to the user. We define a "Glance Attention Area"(GAA) as the relevant focus area around the tracked eye of the user. GAAs are typically circular to denote the area the eyes are looking at, but can be different geometries depending on the application. To make the interface appealing, the primary context is switched to the secondary whenever the context intersects with the user's GAA. The actual area of the GAA depends on the application and how detailed its interface needs to be. In our case, the GAA is wide when the user is looking at primary contexts to focus on, and narrows down when the user is interacting with the secondary context, e.g. to click on an icon.
 
@@ -33,15 +33,15 @@ The implemented UI interface functions are:
 
 * Enabling/Disabling feeds
 
-![menu-enable-disable](/assets/images/menu_select.gif)
+![menu-enable-disable](./assets/images/menu_select.gif)
 
 * Grouping feeds together
 
-![merge-feed](/assets/images/merging.gif)
+![merge-feed](./assets/images/merging.gif)
 
 * Pinning a region to a surface
 
-![pin-feed](/assets/images/pinning.gif)
+![pin-feed](./assets/images/pinning.gif)
 
 ## Demo
 

@@ -1,7 +1,7 @@
 ---
 title: Future
 order: 1
-image-url: /assets/images/happily_ever_after.jpg
+image-url: ./assets/images/happily_ever_after.jpg
 ---
 
 # I believe in the future

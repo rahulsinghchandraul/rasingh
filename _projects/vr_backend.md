@@ -1,7 +1,7 @@
 ---
 title: HousingVR + Backend
 order: 4
-image: /assets/images/gear_vr.jpg
+image: ./assets/images/gear_vr.jpg
 layout: project_details
 list-subtitle: Housing.com, Oct 2015 to Sep 2017
 list-summary: An architectural VR experience made from scratch. Supported by a web build system using Three.js.
@@ -51,7 +51,7 @@ Soon after completing the VR experience, we had issues where due to a small team
 
 Developed in three.js, the front end design panel allowed operators to create houses from scratch. Tied into Housing’s database, floor plans and configuration details were directly provided. Armed with a floor plan and an interior furnishing sketch, an operator could create a detailed house in a matter of hours.
 
-![frontend-panel](/assets/images/vr_frontend.jpg)
+![frontend-panel](./assets/images/vr_frontend.jpg)
 
 ### Rails backend
 

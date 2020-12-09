@@ -1,7 +1,7 @@
 ---
 title: Routing System
 order: 3
-image: /assets/images/20_min_isoline.png
+image: ./assets/images/20_min_isoline.png
 layout: project_details
 list-subtitle: Housing, Dec 2014 to Apr 2015
 list-summary:  A realtime horizontally scalable isoline routing engine based on multi-transit data.
@@ -21,7 +21,7 @@ A reasonably accurate representation including historical traffic data was provi
 
 ## Response
 
-![20-min-isoline](/assets/images/20_min_isoline.png)
+![20-min-isoline](./assets/images/20_min_isoline.png)
 [*Viewable live here*](https://housing.com/rent/flats-for-rent-in-supreme-business-park-hiranandani-gardens-powai-mumbai-E6imtWaX1).
 
 The time routing feature was incredibly successful, with it bringing forth a conversion rate from search to monetizable lead in 60% cases. On user feedback, we included a multi-locality function to find intersection localities from various establishments.

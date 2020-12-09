@@ -1,7 +1,7 @@
 ---
 title: Visual Debugger
 order: 1
-image: /assets/images/lte_call_flow.jpg
+image: ./assets/images/lte_call_flow.jpg
 layout: project_details
 list-subtitle: Cisco, Aug 2013 to Dec 2014
 list-summary:  Mapped inter-node communication through a network map using Cisco's monitor protocol.
@@ -16,7 +16,7 @@ LTE consists of multiple internal network nodes, and they have significant netwo
 
 *A sample LTE call flow*
 
-![lte-call-flow](/assets/images/lte_call_flow.jpg)
+![lte-call-flow](./assets/images/lte_call_flow.jpg)
 
 ## Looking at message flow diagrams is easier
 

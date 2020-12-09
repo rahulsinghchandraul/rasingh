@@ -1,7 +1,7 @@
 ---
 title: Mixed reality
 order: 5
-image-url: /assets/images/mr_world.jpg
+image-url: ./assets/images/mr_world.jpg
 ---
 
 # Mixed reality is going to change us

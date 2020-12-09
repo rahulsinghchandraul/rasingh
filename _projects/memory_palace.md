@@ -1,7 +1,7 @@
 ---
 title: VR Memory Palace
 order: 6
-image: /assets/images/memory_palace.png
+image: ./assets/images/memory_palace.png
 layout: project_details
 list-subtitle: Georgia Tech, Aug 2018 to Dec 2018
 list-summary:  An exploration of representing text in VR

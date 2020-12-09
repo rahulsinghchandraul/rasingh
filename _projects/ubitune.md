@@ -1,7 +1,7 @@
 ---
 title: Ubitune
 order: 5
-image: /assets/images/ubitune_cover.png
+image: ./assets/images/ubitune_cover.png
 layout: project_details
 list-subtitle: Georgia Tech, August 2018 to Present
 list-summary: A ubiquitous crowdsourced music player for publicly played music.
@@ -15,7 +15,7 @@ You can get Ubitune on the Play Store _**[here](https://play.google.com/store/ap
 
 An app that ubiquitously crowdsources user music preferences in public spaces. Essentially, the app takes music that users enjoy from Spotify and creates a playlist that updates as people come and go from a specific space, all in the background in real time.
 
-![ubitune-screens](/assets/images/ubitune_screens.png)
+![ubitune-screens](./assets/images/ubitune_screens.png)
 
 ### Technology stack
 
@@ -27,7 +27,7 @@ As a project for the Mobile and Ubiquitous computing class, we got an A in the c
 
 For creating a collaborative playlist among multiple people, the results are clear: Ubitune is much faster than it would be to with normal Spotify tools, such as their collaborative playlist.
 
-![ubitune-research-study](/assets/images/ubitune_user_study.png)
+![ubitune-research-study](./assets/images/ubitune_user_study.png)
 
 
 ### Future
