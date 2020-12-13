@@ -25,9 +25,14 @@ $story-single-margin-ver: 70px;
         padding-right: $story-content-padding-hor;
     }
 
-    img {
-        zoom: 2;
-        width: 100%;
+    .social-list {
+        img {
+            width: 30px;
+            height: 30px;
+            border-style: none;
+            margin-right: 20px;
+            margin-left: 20px;
+        }
     }
 
     .subtitle {
