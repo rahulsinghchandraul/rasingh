@@ -1,6 +1,6 @@
 ---
 title: Sample Based Distributional Policy Gradient
-order: 8
+order: 2
 image: /assets/images/sdpg.png
 layout: project_details
 list-subtitle: Georgia Tech, May 2019 to Present
