@@ -1,0 +1,111 @@
+.hovereffect {
+    width: 100%;
+    height: 100%;
+    float: left;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+
+    .overlay {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0;
+        background-color: rgba(0, 0, 0, 0.4);
+        -webkit-transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+        transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+    }
+
+    img {
+        display: block;
+        position: relative;
+    }
+
+    h1 {
+        font-size: 30px;
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        //background: rgba(0, 0, 0, 0.6);
+        -webkit-transform: translateY(45px);
+        -ms-transform: translateY(45px);
+        transform: translateY(45px);
+        -webkit-transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+        transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+        margin: 0 auto;
+    }
+
+    .info {
+        display: inline-block;
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #fff;
+        background-color: transparent;
+        opacity: 0;
+        filter: alpha(opacity=0);
+        -webkit-transform: scale(0);
+        -ms-transform: scale(0);
+        transform: scale(0);
+        -webkit-transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+        transition: all 0.4s  cubic-bezier(0.88,-0.99, 0, 1.81);
+        font-weight: normal;
+        margin: -52px 0 0 0;
+        width: 80%;
+    }
+
+    .info-container {
+        width: 80%;
+        height: 80%;
+        margin-top: 8%;
+        margin-left: 8%;
+        margin-right: 8%;
+
+        p {
+            text-transform: none;
+            color: white;
+            font-family: 'Roboto', sans-serif;
+        }
+    }
+
+    .cover-image {
+        zoom: 2;
+        width: 100%;
+    }
+}
+
+.single-blog {
+    padding-left: 5px;
+    padding-right: 25px;
+    padding-top: 45px;
+    padding-bottom: 25px;
+}
+
+
+// Hack: Run hover effects only on large screen devices
+@media only screen and (min-width : 1224px) {
+
+    .hovereffect:hover .overlay {
+        background-color: rgba(75,75,75,0.7);
+    }
+
+    .hovereffect:hover h1 {
+        -webkit-transform: translateY(5px);
+        -ms-transform: translateY(5px);
+        transform: translateY(5px);
+        padding-bottom: 10px;
+    }
+
+    .hovereffect:hover .info {
+        opacity: 1;
+        filter: alpha(opacity=100);
+        -webkit-transform: scale(1);
+        -ms-transform: scale(1);
+        transform: scale(1);
+        width: 80%;
+        margin-top: 10px;
+    }
+}

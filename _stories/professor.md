@@ -1,7 +1,7 @@
 ---
 title: Professor
 order: 2
-image-url: ./assets/images/the_cool_professor.jpg
+image-url: /assets/images/the_cool_professor.jpg
 ---
 
 # Professor Gandalf
