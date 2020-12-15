@@ -1,7 +1,7 @@
 ---
 title: I'm ready
 order: 6
-image-url: ./assets/images/ubiquitous_computing.jpg
+image-url: /assets/images/ubiquitous_computing.jpg
 ---
 
 # Let's make some impact

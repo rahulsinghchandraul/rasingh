@@ -1,7 +1,7 @@
 ---
 title: Saving the team
 order: 4
-image-url: ./assets/images/doctor.jpg
+image-url: /assets/images/doctor.jpg
 ---
 
 # It wasn’t all fun and games

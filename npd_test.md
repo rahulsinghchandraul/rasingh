@@ -2,7 +2,7 @@
 layout: default
 title: NPD Test
 permalink: /npd_test/
-responsive-icon: ./assets/images/projects.svg
+responsive-icon: /assets/images/projects.svg
 ---
 
 # The DNP Scale

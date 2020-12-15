@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<!-- <link rel="stylesheet" href="/assets/blog.css"> -->
+
+{%- assign blogs = site.blogs | sort: 'order' | reverse -%}
+<section class="row blog-cover" id="blogs">
+{%- for blog in blogs -%}
+    <div class="col-sm-3 col-sm-offset-1 col-xs-12 single-blog" {% if blog.img-width %}style="clip-path: polygon(0 0, 100% 0, 100% {{ blog.img-width }}%, 0 {{ blog.img-width }}%);"{% endif %} >
+        <div class="hovereffect">
+            <img src="{{ blog.image }}" alt="" class="img-responsive cover-image" />
+            <a href={{ blog.url }}>
+                <div class="overlay">
+                    <div class="info-container">
+                        <!-- span class="height-correction"></span --><h1>{{ blog.title }}</h1>
+                        <div class="info">
+                            <h2>{{ blog.list-subtitle }}</h2>
+                            <p>{{ blog.list-summary }}</p>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+    </div>
+    {%- endfor -%}
+</section>

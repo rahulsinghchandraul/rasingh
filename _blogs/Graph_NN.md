@@ -1,7 +1,7 @@
 ---
 title: 3D Covid-19 Tracker
 order: 7
-image: ./assets/images/covid_tracker.jpg
+image: /assets/images/covid_tracker.jpg
 layout: project_details
 list-subtitle: Georgia Tech, Jan 2020 to Apr 2020
 list-summary:  An exploration of representing hierarchial US COVID-19 data in Virtual Reality.
@@ -26,8 +26,8 @@ Due to a lack of time, we couldn't implement all the planned features for the in
 ### Video
 
 <video width="100%" height="100%" controls>
-  <source src="../assets/covid_tracker.mp4" type="video/mp4">
-  Your browser does not support the video tag. Download the video <a href="../assets/covid_tracker.mp4">here</a>.
+  <source src="./assets/covid_tracker.mp4" type="video/mp4">
+  Your browser does not support the video tag. Download the video <a href="./assets/covid_tracker.mp4">here</a>.
 </video>
 
 ## Report
